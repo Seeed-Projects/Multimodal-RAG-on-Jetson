@@ -17,7 +17,7 @@ ollama run llava
 The result is as follows:
 ![](./source/ollama_run_llava.png)
 
-Open a new terminal and run:
+Open a new terminal(Ctrl+Alt+T) and run:
 ```
 cd jetson-containers
 cd data
