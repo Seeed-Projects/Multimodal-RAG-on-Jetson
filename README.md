@@ -22,7 +22,7 @@ Open a new terminal（Ctrl+Alt+T） and run:
 cd jetson-containers
 jetson-containers run $(autotag l4t-pytorch)
 git clone https://github.com/ollama/multimodal-rag.git
-cd multimodal-rag
+cd Multimodal-RAG-on-Jetson
 ```
 ## Run the multimodal RAG
 ```
