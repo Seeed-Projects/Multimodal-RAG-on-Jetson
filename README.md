@@ -12,7 +12,7 @@ bash jetson-containers/install.sh
 jetson-containers run --name ollama $(autotag ollama)
 ollama run llava
 ```
-Open a new terminal and run:
+Open a new terminal（Ctrl+Alt+T） and run:
 ```
 cd jetson-containers
 jetson-containers run $(autotag l4t-pytorch)
