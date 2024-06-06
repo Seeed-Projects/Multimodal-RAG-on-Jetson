@@ -12,7 +12,7 @@ bash jetson-containers/install.sh
 jetson-containers run --name ollama $(autotag ollama)
 ollama run llava
 ```
-
+The result is as follow:
 ![](./source/ollama_run_llava.png)
 
 Open a new terminal and run:
