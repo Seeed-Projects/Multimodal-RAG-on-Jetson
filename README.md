@@ -1,7 +1,7 @@
 # Multimodel RAG with Ollama:llava and LlamaIndex on Jetson
 
 Here I use reComputer J4012 powered by NVIDIA [Jetson Orin NX 16GB](https://www.seeedstudio.com/reComputer-J4012-p-5586.html).
-## Pareper environment
+## Prepare environment
 
 ```
 # install the container tools
