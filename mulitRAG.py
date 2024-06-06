@@ -22,7 +22,7 @@ class VideoProcessor:
         self.text_path = text_path
 
     def extract_audio(self):
-        video = VideoFileClip(os.path.join(self.video_path, "seeed.mp4"))
+        video = VideoFileClip(os.path.join(self.video_path, "video.mp4"))
         audio_part = video.audio
         audio_part.write_audiofile(os.path.join(self.output_audio_path, "output_audio.mp3"))
 
@@ -48,7 +48,7 @@ class VideoProcessor:
             file.close()
 
     def extract_frames(self):
-            clip = VideoFileClip(os.path.join(self.video_path, "seeed.mp4"))
+            clip = VideoFileClip(os.path.join(self.video_path, "video.mp4"))
             clip.write_images_sequence(os.path.join(self.image_path, "%04d.png"), fps=0.5)
 
     def process_video(self):
