@@ -2,7 +2,7 @@
 
 mkdir ./audio
 mkdir ./text
-mkdir ./images
+mkdir ./image
 sudo apt update && sudo apt install ffmpeg -y
 pip install pydub
 pip install -U openai-whisper
