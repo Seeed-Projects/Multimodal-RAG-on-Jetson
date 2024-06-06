@@ -21,7 +21,7 @@ Open a new terminal and run:
 ```
 cd jetson-containers
 cd data
-git clone https://github.com/ollama/multimodal-rag.git
+git clone https://github.com/Seeed-Projects/Multimodal-RAG-on-Jetson
 cd ..
 jetson-containers run $(autotag l4t-pytorch)
 cd data/Multimodal-RAG-on-Jetson
