@@ -14,17 +14,20 @@ bash jetson-containers/install.sh
 jetson-containers run --name ollama $(autotag ollama)
 ollama run llava
 ```
+The result is as follows:
+![](./source/ollama_run_llava.png)
 
-Open a new terminal（Ctrl+Alt+T） and run:
-
+Open a new terminal and run:
 ```
-# Install libs and run in other container
 cd jetson-containers
-jetson-containers run $(autotag l4t-pytorch)
+cd data
 git clone https://github.com/ollama/multimodal-rag.git
-cd Multimodal-RAG-on-Jetson
+cd ..
+jetson-containers run $(autotag l4t-pytorch)
+cd data/Multimodal-RAG-on-Jetson
 ```
-## Run the multimodal RAG
+
+## Run Multimodal-RAG-on-Jetson
 ```
 bash run.sh
 ```
