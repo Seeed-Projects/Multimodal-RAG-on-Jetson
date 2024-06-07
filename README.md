@@ -24,7 +24,7 @@ cd data
 git clone https://github.com/Seeed-Projects/Multimodal-RAG-on-Jetson
 cd ..
 jetson-containers run $(autotag l4t-pytorch)
-cd data/Multimodel-RAG-on-Jetson
+cd data/Multimodal-RAG-on-Jetson
 ```
 
 ## Run Multimodel-RAG-on-Jetson
