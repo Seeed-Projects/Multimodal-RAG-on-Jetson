@@ -27,8 +27,7 @@ jetson-containers run $(autotag l4t-pytorch)
 cd data/Multimodal-RAG-on-Jetson
 ```
 ## Result
-[![Alt text](https://www.youtube.com/vi/RbkATardT2I/0.jpg)](https://www.youtube.com/watch?v=RbkATardT2I)
-
+[![Alt text](https://img.youtube.com/vi/RbkATardT2I/0.jpg)](https://www.youtube.com/watch?v=RbkATardT2I)
 
 
 ## Run Multimodel-RAG-on-Jetson
