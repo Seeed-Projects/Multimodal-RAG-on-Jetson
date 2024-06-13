@@ -1,4 +1,4 @@
-# Multimodel RAG with Ollama:llava and LlamaIndex on Jetson
+# Multimodel RAG with [Ollama:llava](https://github.com/dusty-nv/jetson-containers/tree/master/packages/llm/ollama) and [LlamaIndex](https://www.llamaindex.ai/) on Jetson
 
 Here I use reComputer J4012 powered by NVIDIA [Jetson Orin NX 16GB](https://www.seeedstudio.com/reComputer-J4012-p-5586.html).
 ## Prepare environment
